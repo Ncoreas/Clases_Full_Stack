@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubicacion</title>
+</head>
+<body>
+    <header> 
+        <h1>Encuentranos a un click</h1>
+    </header>
+    <nav>
+        <!--listas ordenadas <ol> y listas desordenadas <ul> -->
+        <ul>
+            <!--elementos de la lista <li 
+            pagina principal, platillos, ubicacion-->
+            <li>
+                <!--hipervinculos <a>: redirecciona a un enlace o archivo que mandamos dentro de la etiqueta <a> existe la propiedad href
+                    href = es la ruta donde vamos a <redireccionar-->
+                <a href="./index.html">Principal</a>
+            </li>
+            <li>
+                <a href="./platillos.html">platillos</a>
+            </li>
+            <li>
+                <a href="./Ubicacion.html">ubicacion</a>
+            </li>
+        </ul>
+
+    </nav>
+    <h1>Contacto</h1>
+    <p>Por favor completa el siguiente formulario
+         y nos pondremos en contacto contigo a la brevedad.</p>
+
+    <form action="#" method="post">
+        <label for="Nombre">Nombre:</label><br>
+        <input type="text" id="Nombre" name="Nombre" required> <br><br>
+
+        <label for="Email">Email:</label><br>
+        <input type="email" id="Email" name="email" required><br><br>
+
+        <label for="Telefono">Telefono:</label><br>
+        <input type="tel" id="Telefono" name="Telefono" required><br><br>
+
+        <label for="Mensaje">Mensaje: </label><br>
+        <textarea name="Mensaje" id="Mensaje" name="Mensaje"
+         cols="30" rows="10" required></textarea><br><br>
+
+         <input type="submit" value="enviar">
+    </form>
+    
+    <br><br><hr>
+    <!--mapa de google-->
+    <h2>Estamos ubicados en: </h2>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62023.09857910967!2d-89.25645187273265!3d13.691558188012019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f633067b411775d%3A0x1f75978893fb5c96!2sSan%20Salvador!5e0!3m2!1ses!2ssv!4v1683076823800!5m2!1ses!2ssv"
+     width="500" height="250" style="border: 2px;;" allowfullscreen="" loading="lazy"
+     referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>

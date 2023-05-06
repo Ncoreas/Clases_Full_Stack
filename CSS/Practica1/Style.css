@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Josefin+Sans:ital@1&family=Lato:ital,wght@0,400;1,100&display=swap');
+/** llamando al selector id**/
+#contenedor{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 0.9rem;
+    border: 3px dotted rgb(17, 190, 212);
+    text-align: center;
+    padding: 2rem;
+}
+.titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 1px solid rgb(1, 247, 42);
+}

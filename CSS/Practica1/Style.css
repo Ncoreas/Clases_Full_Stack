@@ -9,5 +9,7 @@
 }
 .titulo{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border: 1px solid rgb(1, 247, 42);
+    border: 2px solid rgb(1, 247, 42);
+
+    
 }

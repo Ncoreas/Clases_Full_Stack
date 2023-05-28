@@ -131,7 +131,7 @@ h4{
     background-color: #e7eceb81;
     color: rgb(0, 0, 0);
     font-size: large;
-    transition: all 10s;
+    transition: all 0.5s;
 }
 .btn-oferta:hover{
     background-color: #08b388;
@@ -278,7 +278,7 @@ min-width: sirve para identificar el minimo en el cual comenzara a utilizar el m
         font-size: 5rem;
     }
     .footer_container{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns:1fr;
 
     }
     .card{
